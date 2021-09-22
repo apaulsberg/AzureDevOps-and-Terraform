@@ -14,7 +14,7 @@ terraform {
 
 variable "imageversion" {
     type        = string
-    escription  = "Latest image Build"  
+    description  = "Latest image Build"  
 }
 
 resource "azurerm_resource_group" "tf_test_rg" {
